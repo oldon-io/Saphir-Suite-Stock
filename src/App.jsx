@@ -23,7 +23,7 @@ const FLOORS = [
 ];
 
 const CATS = ["Entretien", "Consommables", "Café & Thé", "Autre"];
-const USERS = ["Steve", "Marie", "Luc", "Yasmine"];
+const USERS = ["Steve", "Marie-Ange", "Max", "Giulia"];
 
 const DEFAULT_ARMOIRES = {
   ss: [{ id: "ss1", name: "Local technique" }],
