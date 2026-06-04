@@ -18,17 +18,15 @@ const db = getDatabase(app);
 const FLOORS = [
   { id: "ss", label: "Sous-sol" },
   { id: "r0", label: "Étage 0" },
-  { id: "r1", label: "Étage 1" },
   { id: "r3", label: "Étage 3" },
 ];
 
-const CATS = ["Entretien", "Consommables", "Café & Thé", "Autre"];
+const CATS = ["Entretien", "Consommables", "Café & Thé", "Linge", "Autre"];
 const USERS = ["Steve", "Marie-Ange", "Max", "Giulia"];
 
 const DEFAULT_ARMOIRES = {
   ss: [{ id: "ss1", name: "Local technique" }],
   r0: [{ id: "r01", name: "Armoire logement 1" }, { id: "r02", name: "Armoire logement 2" }],
-  r1: [{ id: "r11", name: "Armoire logement 3" }],
   r3: [{ id: "r31", name: "Armoire logement 5" }],
 };
 
