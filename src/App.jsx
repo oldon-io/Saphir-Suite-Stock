@@ -21,7 +21,7 @@ const FLOORS = [
   { id: "r3", label: "Étage 3" },
 ];
 
-const CATS = ["Entretien", "Consommables", "Café & Thé", "Linge", "Autre"];
+const CATS = ["Entretien", "Consommables", "Café & Thé", "Linge", "Alimentaire", "Autre"];
 const USERS = ["Steve", "Marie-Ange", "Max", "Giulia"];
 
 const DEFAULT_ARMOIRES = {
